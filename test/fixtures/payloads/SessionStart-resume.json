@@ -1,0 +1,10 @@
+{
+  "session_id": "7ebdd5ea-de1d-49c5-82ad-505848403974",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/7ebdd5ea-de1d-49c5-82ad-505848403974.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "SessionStart",
+  "timestamp": "2026-10-18T14:15:21.777Z",
+  "permission_mode": "yolo",
+  "source": "resume",
+  "model": "fake-model"
+}

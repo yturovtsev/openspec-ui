@@ -1,0 +1,16 @@
+{
+  "session_id": "39365e55-1575-470c-858c-3d7d7a82e186",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/39365e55-1575-470c-858c-3d7d7a82e186.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "Stop",
+  "timestamp": "2026-10-18T14:19:55.764Z",
+  "permission_mode": "yolo",
+  "prompt_id": "39365e55-1575-470c-858c-3d7d7a82e186########0",
+  "stop_hook_active": false,
+  "last_assistant_message": "after-write",
+  "background_tasks": [],
+  "crons": [],
+  "context_usage": 0.00005,
+  "context_limit": 200000,
+  "input_tokens": 10
+}

@@ -1,0 +1,12 @@
+{
+  "session_id": "7ebdd5ea-de1d-49c5-82ad-505848403974",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/7ebdd5ea-de1d-49c5-82ad-505848403974.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "Notification",
+  "timestamp": "2026-10-18T14:15:11.615Z",
+  "permission_mode": "default",
+  "prompt_id": "7ebdd5ea-de1d-49c5-82ad-505848403974########0",
+  "message": "Qwen Code needs your permission to use mcp__slow__wait",
+  "notification_type": "permission_prompt",
+  "title": "Permission needed"
+}

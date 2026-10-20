@@ -1,0 +1,42 @@
+{
+  "session_id": "ababd35f-9fbe-41cd-a234-efe083c78101",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/ababd35f-9fbe-41cd-a234-efe083c78101.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "PostToolBatch",
+  "timestamp": "2026-10-18T14:19:33.486Z",
+  "permission_mode": "default",
+  "tool_calls": [
+    {
+      "tool_name": "write_file",
+      "tool_input": {
+        "file_path": "/work/proj/openspec/changes/demo-change/proposal.md",
+        "content": "## Why\n\nDemo.\n"
+      },
+      "tool_use_id": "call_1792333169944_0",
+      "tool_call_id": "call_1792333169944_0",
+      "status": "cancelled",
+      "tool_response": {
+        "response_parts": [
+          {
+            "functionResponse": {
+              "id": "call_1792333169944_0",
+              "name": "write_file",
+              "response": {
+                "error": "[Operation Cancelled] Reason: User did not allow tool call"
+              }
+            }
+          }
+        ],
+        "result_display": {
+          "fileDiff": "Index: proposal.md\n===================================================================\n--- proposal.md\tCurrent\n+++ proposal.md\tProposed\n@@ -0,0 +1,3 @@\n+## Why\n+\n+Demo.\n",
+          "fileName": "proposal.md",
+          "filePath": "/work/proj/openspec/changes/demo-change/proposal.md",
+          "originalContent": "",
+          "newContent": "## Why\n\nDemo.\n"
+        },
+        "execution_status": "not_started",
+        "content_length": 58
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "qwen-opsx-ui",
+  "version": "0.1.0",
+  "displayName": "OpenSpec UI",
+  "description": "Compact in-session UI for the OpenSpec workflow: flow step, active change, artifact progress, pending MCP calls and an approval gate for planning artifacts.",
+  "contextFileName": "QWEN.md",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook SessionStart", "timeout": 5 }] }
+    ],
+    "SessionEnd": [
+      { "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook SessionEnd", "timeout": 5 }] }
+    ],
+    "UserPromptExpansion": [
+      { "matcher": "^opsx-", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook UserPromptExpansion", "timeout": 5 }] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook UserPromptSubmit", "timeout": 5 }] }
+    ],
+    "PreToolUse": [
+      { "matcher": "^(write_file|edit|run_shell_command|skill|mcp__.+)$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PreToolUse", "timeout": 5 }] }
+    ],
+    "PermissionRequest": [
+      { "matcher": "^(write_file|edit|run_shell_command|mcp__.+)$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PermissionRequest", "timeout": 5 }] }
+    ],
+    "PermissionDenied": [
+      { "matcher": "^(write_file|edit|run_shell_command|mcp__.+)$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PermissionDenied", "timeout": 5 }] }
+    ],
+    "PostToolUse": [
+      { "matcher": "^(write_file|edit|run_shell_command|mcp__.+)$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PostToolUse", "timeout": 5 }] }
+    ],
+    "PostToolUseFailure": [
+      { "matcher": "^(write_file|edit|run_shell_command|mcp__.+)$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PostToolUseFailure", "timeout": 5 }] }
+    ],
+    "PostToolBatch": [
+      { "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook PostToolBatch", "timeout": 5 }] }
+    ],
+    "Notification": [
+      { "matcher": "^idle_prompt$", "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook Notification", "timeout": 5 }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "node \"${extensionPath}${/}bin${/}opsx-ui.mjs\" hook Stop", "timeout": 5 }] }
+    ]
+  }
+}

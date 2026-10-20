@@ -1,0 +1,15 @@
+{
+  "session_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/fa636fe8-60c0-444b-9922-140b9ff6ac9e.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "PreToolUse",
+  "timestamp": "2026-10-18T14:13:08.175Z",
+  "permission_mode": "yolo",
+  "prompt_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e########0",
+  "tool_name": "mcp__slow__wait",
+  "tool_input": {
+    "seconds": 1
+  },
+  "tool_use_id": "toolu_1792332788175_w0zb3kxye",
+  "tool_call_id": "call_1792332788171_0"
+}

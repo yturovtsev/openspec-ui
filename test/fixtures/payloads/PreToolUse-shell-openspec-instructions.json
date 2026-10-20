@@ -1,0 +1,16 @@
+{
+  "session_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/fa636fe8-60c0-444b-9922-140b9ff6ac9e.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "PreToolUse",
+  "timestamp": "2026-10-18T14:13:06.519Z",
+  "permission_mode": "yolo",
+  "prompt_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e########0",
+  "tool_name": "run_shell_command",
+  "tool_input": {
+    "command": "openspec instructions proposal --change \"demo-change\" --json",
+    "description": "instructions"
+  },
+  "tool_use_id": "toolu_1792332786519_iywxyrjlo",
+  "tool_call_id": "call_1792332786515_0"
+}

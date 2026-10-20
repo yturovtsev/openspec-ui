@@ -1,0 +1,10 @@
+{
+  "session_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/fa636fe8-60c0-444b-9922-140b9ff6ac9e.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "UserPromptSubmit",
+  "timestamp": "2026-10-18T14:13:06.417Z",
+  "permission_mode": "yolo",
+  "prompt_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e########0",
+  "prompt": ""
+}

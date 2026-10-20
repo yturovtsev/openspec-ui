@@ -1,0 +1,23 @@
+{
+  "session_id": "7ebdd5ea-de1d-49c5-82ad-505848403974",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/7ebdd5ea-de1d-49c5-82ad-505848403974.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "PostToolUse",
+  "timestamp": "2026-10-18T14:15:15.100Z",
+  "permission_mode": "default",
+  "tool_name": "mcp__slow__wait",
+  "tool_input": {
+    "seconds": 2
+  },
+  "tool_response": {
+    "llmContent": [
+      {
+        "text": "waited 2s"
+      }
+    ],
+    "returnDisplay": "waited 2s"
+  },
+  "tool_use_id": "toolu_1792332911456_h00umh5he",
+  "tool_call_id": "call_1792332911450_0",
+  "duration_ms": 2006
+}

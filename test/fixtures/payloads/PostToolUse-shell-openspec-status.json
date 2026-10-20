@@ -1,0 +1,21 @@
+{
+  "session_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/fa636fe8-60c0-444b-9922-140b9ff6ac9e.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "PostToolUse",
+  "timestamp": "2026-10-18T14:13:06.256Z",
+  "permission_mode": "yolo",
+  "prompt_id": "fa636fe8-60c0-444b-9922-140b9ff6ac9e########0",
+  "tool_name": "run_shell_command",
+  "tool_input": {
+    "command": "openspec status --change \"demo-change\" --json",
+    "description": "status"
+  },
+  "tool_response": {
+    "llmContent": "Command: openspec status --change \"demo-change\" --json\nDirectory: (root)\nOutput: {\n  \"changeName\": \"demo-change\",\n  \"schemaName\": \"spec-driven\",\n  \"planningHome\": {\n    \"kind\": \"repo\",\n    \"root\": \"/work/proj\",\n    \"changesDir\": \"/work/proj/openspec/changes\",\n    \"defaultSchema\": \"spec-driven\"\n  },\n  \"changeRoot\": \"/work/proj/openspec/changes/demo-change\",\n  \"artifactPaths\": {\n    \"proposal\": {\n      \"outputPath\": \"proposal.md\",\n      \"resolvedOutputPath\": \"/work/proj/openspec/changes/demo-change/proposal.md\",\n      \"existingOutputPaths\": []\n    },\n    \"specs\": {\n      \"outputPath\": \"specs/**/…[trimmed]",
+    "returnDisplay": "{\n  \"changeName\": \"demo-change\",\n  \"schemaName\": \"spec-driven\",\n  \"planningHome\": {\n    \"kind\": \"repo\",\n    \"root\": \"/work/proj\",\n    \"changesDir\": \"/work/proj/openspec/changes\",\n    \"defaultSchema\": \"spec-driven\"\n  },\n  \"changeRoot\": \"/work/proj/openspec/changes/demo-change\",\n  \"artifactPaths\": {\n    \"proposal\": {\n      \"outputPath\": \"proposal.md\",\n      \"resolvedOutputPath\": \"/work/proj/openspec/changes/demo-change/proposal.md\",\n      \"existingOutputPaths\": []\n    },\n    \"specs\": {\n      \"outputPath\": \"specs/**/*.md\",\n      \"resolvedOutputPath\": \"/work/proj/openspec/changes/demo-change/specs…[trimmed]"
+  },
+  "tool_use_id": "toolu_1792332785708_x1wi4r6ei",
+  "tool_call_id": "call_1792332785689_0",
+  "duration_ms": 423
+}

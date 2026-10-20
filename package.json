@@ -1,0 +1,18 @@
+{
+  "name": "qwen-opsx-ui",
+  "version": "0.1.0",
+  "description": "Compact in-session UI for the OpenSpec workflow in Qwen Code: status line, flow tracking, artifact approval gate.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "opsx-ui": "bin/opsx-ui.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "e2e": "node test/e2e/e2e.mjs"
+  },
+  "license": "MIT"
+}

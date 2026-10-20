@@ -1,0 +1,11 @@
+{
+  "session_id": "ababd35f-9fbe-41cd-a234-efe083c78101",
+  "transcript_path": "/home/user/.qwen/projects/-work-proj/chats/ababd35f-9fbe-41cd-a234-efe083c78101.jsonl",
+  "cwd": "/work/proj",
+  "hook_event_name": "Notification",
+  "timestamp": "2026-10-18T14:19:33.595Z",
+  "permission_mode": "default",
+  "message": "Qwen Code is waiting for your input",
+  "notification_type": "idle_prompt",
+  "title": "Waiting for input"
+}
